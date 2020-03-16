@@ -22,3 +22,26 @@
     - ctrl + shift + 5 - separate terminal
     - ctrl + shift + c - open terminal out of vs code
     - ctrl + shift + f - search in the whole code
+
+## What is Typescript and why should you use it 
+###  typing system in JS, less tests, autocomplete and popups with hints
+#### Simple example
+  -  let a: number = 1;
+  -  let b: number = 2;
+
+- const sumAandB = (a: number, b: number): number => {
+    return a + b;
+}
+### 12 basic types in Typescript - https://www.typescriptlang.org/docs/handbook/basic-types.html
+  - boolean
+  - number
+  - string
+  - array - [1, 2, 3]
+  - tuple - [number, string, number] - ex: let arr: [number, string, number] = [1, '3', 4];
+  - enum - Outcome {Win, Lose, Draw}
+  - any - Dynamic type (like normal js)
+  - void - a function that doesn't return
+  - null - something doesn't exist
+  - undefined - unassinged variable
+  - never - function that never returns
+  - object - non-primitive types
