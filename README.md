@@ -45,3 +45,9 @@
   - undefined - unassinged variable
   - never - function that never returns
   - object - non-primitive types
+  ## Adding typescript to create-react-app
+    -  create new project with npx - npx create-react-app my-app
+    -  npm i typescript @types/node @types/react-dom
+    -  rename App.js to App.tsx
+    -  start your project -> npm start -> tsconfig.json in main root of the project is for all typescript configurations -> create one if  it's not generated
+  ## Adding typescript to react with babel and webpack
