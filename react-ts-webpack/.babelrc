@@ -1,0 +1,4 @@
+// In Babel, a preset is a set of plugins used to support particular language features.
+{
+  "presets": ["@babel/env", "@babel/react", "@babel/typescript"]
+}
